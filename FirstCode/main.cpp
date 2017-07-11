@@ -7,9 +7,17 @@
 //
 
 #include <iostream>
-
-int main(int argc, const char * argv[]) {
+#include <cmath>
+#include <stdio.h>
+#include <stdlib.h>
+#include <GLUT/glut.h>
+#include <OpenGL/gl.h>
+#include <OpenGL/glu.h>
+int main(int argc,char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
+    glutInit(&argc, argv);
+    glutCreateWindow("aaaaa");
+    glutMainLoop();
     return 0;
 }
